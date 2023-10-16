@@ -12,12 +12,13 @@ button {
 }
 
 body {
-    font-family: Roboto, 'Raleway',
+    font-family: Roboto,
         sans-serif;
 }
 
 body {
     color: #434455;
+    background-color:#FFF;
 }
 
 .logotype-span {
@@ -26,7 +27,7 @@ body {
         font-size: 18px;
         font-style: normal;
         font-weight: 700;
-        line-height: 1.67;
+        line-height: 1.17;
         /* 116.667% */
         letter-spacing: 0.03em;
         text-transform: uppercase;
@@ -38,7 +39,7 @@ color: #4D5AE5;
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
-    line-height: 1.67;
+    line-height: 1.17;
     /* 116.667% */
     letter-spacing: 0.03em;
     text-transform: uppercase;
@@ -61,7 +62,7 @@ color: #4D5AE5;
     color:#404BBF;
 }
 
-.contact-link {
+.contact {
     color:  #434455;
         /* Body */
         font-family: Roboto;
@@ -139,6 +140,11 @@ background-color:#404BBF;
 
 .team-list {
     text-align: center;
+    background-color: #FFF;
+}
+
+.team-section {
+    background-color: #F4F4FD;
 }
 
 .team {
@@ -228,4 +234,20 @@ background-color:#404BBF;
         line-height: 1.5;
         /* 150% */
         letter-spacing: 0.02em;
+}
+
+.footer {
+    background-color:#2e2f42;
+}
+
+.logotype-footer {
+    color: var(--CLOUD, #F4F4FD);
+        font-family: Raleway;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 1.17;
+        /* 116.667% */
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
 }
